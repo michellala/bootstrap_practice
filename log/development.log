@@ -5564,3 +5564,11 @@ Started GET "/startup/index" for ::1 at 2016-09-13 15:18:49 -0400
 Processing by StartupController#index as HTML
   Rendered startup/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/startup/index" for ::1 at 2016-09-13 15:52:05 -0400
+Processing by StartupController#index as HTML
+  Rendered startup/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 514ms (Views: 496.6ms | ActiveRecord: 0.0ms)
